@@ -1,0 +1,42 @@
+export const TABEL_ACUAN_BULIN = {
+    'Komplikasi': {
+        notifikasi: 'KIE difokuskan pada perawatan dan penanganan komplikasi pasca persalinan',
+        intervensi: 'Merujuk ke Puskesmas/faskes terdekat',
+        progresTeks: 'Sudah ke Puskesmas/faskes terdekat atau belum',
+        tindakLanjutTeks: 'Memastikan sudah ke Puskesmas/faskes terdekat',
+        output: 'Penanganan komplikasi pasca persalinan',
+        outcome: '1. Terjadi peningkatan HB 2. Terjadi penurunan Risiko Stunting',
+    },
+    'Belum KBPP': {
+        notifikasi: 'KIE yang dilakukan difokuskan pada penggunaan alat/obat kontrasepsi modern',
+        intervensi: 'Mengantar ke faskes pelayanan KB terdekat',
+        progresTeks: 'Sudah ke faskes pelayanan KB atau belum',
+        tindakLanjutTeks: 'Memastikan sudah menggunakan alat/obat kontrasepsi modern',
+        output: 'Kesertaan KB',
+        outcome: '1. Kesertaan KB Modern 2. Terjadi penurunan Risiko Stunting',
+    },
+    'Sanitasi': {
+        notifikasi: 'KIE yang dilakukan difokuskan pada Perilaku Hidup Bersih dan Sehat (PHBS) khususnya pada kebersihan sanitasi',
+        intervensi: 'Usulan untuk dijadikan sasaran bedah rumah (perbaikan sanitasi), Genting, CSR, dll',
+        progresTeks: 'Sudah ada perbaikan sanitasi',
+        tindakLanjutTeks: null,
+        output: 'Sanitasi yang layak',
+        outcome: 'Penurunan Risiko Stunting',
+    },
+    'Air Minum': {
+        notifikasi: 'KIE yang dilakukan difokuskan pada Perilaku Hidup Bersih dan Sehat (PHBS) khususnya pada asupan air minum yang layak',
+        intervensi: 'Usulan untuk dijadikan sasaran perbaikan sumber air minum yang layak dari Genting, PDAM, CSR, dll',
+        progresTeks: 'Sudah ada perubahan sumber air minum',
+        tindakLanjutTeks: null,
+        output: 'Sumber air minum yang layak',
+        outcome: 'Penurunan Risiko Stunting',
+    },
+    'Tindakan/Caesar': {
+        notifikasi: 'KIE yang dilakukan difokuskan pada perawatan pasca persalinan dan pemenuhan asupan gizi yang seimbang (terutama protein)',
+        intervensi: '1. Usulan diberikan PMT 2. Merujuk ke Puskesmas/faskes terdekat',
+        progresTeks: '1. Sudah diberikan PMT atau belum 2. Sudah ke Puskesmas/faskes terdekat atau belum',
+        tindakLanjutTeks: '1. Memastikan PMT sudah dikonsumsi sasaran 2. Memastikan sudah ke Puskesmas/faskes terdekat',
+        output: 'Kondisi pasca persalinan',
+        outcome: '1. Pemulihan pasca persalinan 2. Terjadi penurunan Risiko Stunting',
+    },
+};

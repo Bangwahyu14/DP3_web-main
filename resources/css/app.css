@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PALET 4 WARNA HARMONIS */
+:root {
+    --brand-primary: #db1a1a;       /* Merah Dinas */
+    --brand-secondary: #fff6f6;     /* Merah Sangat Lembut / Canvas */
+    --brand-tertiary: #8cc7c4;      /* Soft Teal / Garis & Track */
+    --brand-complement: #2c687b;    /* Deep Teal / Navigasi & Progress */
+}
+
+body {
+    background-color: var(--brand-secondary) !important;
+    color: #1f2937;
+}
+
+/* KELAS UTILITAS WARNA */
+.bg-brand-primary { background-color: #db1a1a !important; }
+.hover-bg-brand-primary:hover { background-color: #b51414 !important; }
+.text-brand-primary { color: #db1a1a !important; }
+
+.bg-brand-secondary { background-color: #fff6f6 !important; }
+.border-brand-secondary { border-color: #fff6f6 !important; }
+
+.bg-brand-tertiary { background-color: #8cc7c4 !important; }
+.border-brand-tertiary { border-color: #8cc7c4 !important; }
+.text-brand-tertiary { color: #8cc7c4 !important; }
+
+.bg-brand-complement { background-color: #2c687b !important; }
+.hover-bg-brand-complement:hover { background-color: #204c5a !important; }
+.text-brand-complement { color: #2c687b !important; }
+.border-brand-complement { border-color: #2c687b !important; }
+
+/* STYLING FORM & FOCUS DENGAN AKSEN TEAL & MERAH */
+input, select, textarea {
+    border: 1.5px solid #8cc7c4 !important;
+    background-color: #ffffff !important;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2c687b !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(44, 104, 123, 0.25) !important;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    color: #2c687b !important;
+}
+input[type="checkbox"]:focus, input[type="radio"]:focus {
+    box-shadow: 0 0 0 2px rgba(44, 104, 123, 0.3) !important;
+}
